@@ -1,5 +1,6 @@
 'use strict';
 
+/*
 window.setTimeout(function () {
   chrome.storage.local.get("version", e => {
     if (!e.version) {
@@ -11,6 +12,7 @@ window.setTimeout(function () {
     }
   });
 }, 3000);
+*/
 
 /**
  * Notification for deep search.

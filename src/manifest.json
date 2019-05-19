@@ -6,7 +6,7 @@
   "name": "__MSG_chrome_extension_name__",
   "description": "__MSG_chrome_extension_description__",
   "homepage_url": "http://eccorem.com/apps/image-downloader.html",
-  "background": {"scripts": ["background.js"], "persistent": false},
+  "background": {"scripts": ["background.js"]},
   "permissions" : ["storage", "tabs", "notifications", "contextMenus", "<all_urls>"],
   "browser_action": {
     "default_icon": "data/icons/16.png",

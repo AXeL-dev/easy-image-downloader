@@ -872,7 +872,7 @@ function getTotalProcessLinks() {
 document.getElementById('deepLevelInput').oninput = e => {
   Configuration.AppConfig.deepLevel = e.target.value > 2 ? 2 : e.target.value < 0 ? 0 : e.target.value;
   chrome.storage.local.set({'AppConfig': Configuration.AppConfig});
-  chrome.runtime.sendMessage({action: 'deepNotification'});
+  //chrome.runtime.sendMessage({action: 'deepNotification'});
 };
 
 /**

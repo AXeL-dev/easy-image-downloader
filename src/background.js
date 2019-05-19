@@ -115,7 +115,7 @@ chrome.runtime.onInstalled.addListener(() => {
 });
 
 const injectContentScript = function(tabId, callback) {
-  chrome.tabs.executeScript(tabId, {file: 'htmlGetter.js', allFrames: true, matchAboutBlank: true}, result => {
+  chrome.tabs.executeScript(tabId, {file: 'htmlGetter.js', matchAboutBlank: true}, result => {
     if (!chrome.runtime.lastError) {
       callback(result);
     }

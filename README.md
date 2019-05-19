@@ -18,7 +18,7 @@ Easily save all images in a website to a zip file with just one click!
 
 ## Installation
 
-You can install the extension from [Firefox Add-ons](#).
+You can install the extension from [Firefox Add-ons](https://addons.mozilla.org/addon/easy-image-downloader/).
 
 ## Credits
 

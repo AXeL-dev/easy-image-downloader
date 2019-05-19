@@ -152,12 +152,10 @@ document.addEventListener('click', e => {
       startFilter();
       break;
     case 'btnDeselect':
-      [...document.querySelectorAll('.gallery-item-selected')].forEach(p => p.classList.remove('gallery-item-selected'));
-      selectionChangedUI();
+      unselectAll();
       break;
     case 'btnSelectAll':
-      [...document.querySelectorAll('.gallery-item')].forEach(p => p.classList.add('gallery-item-selected'));
-      selectionChangedUI();
+      selectAll();
       break;
     case 'btnDownload':
       downloadProgressWrapper.style.display = 'flex';
@@ -394,7 +392,23 @@ function initalizeFilterForm() {
 }
 
 /**
- * celection change ui
+ * select all images
+ */
+function selectAll() {
+  [...document.querySelectorAll('.gallery-item')].forEach(p => p.classList.add('gallery-item-selected'));
+  selectionChangedUI();
+}
+
+/**
+ * unselect all images
+ */
+function unselectAll() {
+  [...document.querySelectorAll('.gallery-item-selected')].forEach(p => p.classList.remove('gallery-item-selected'));
+  selectionChangedUI();
+}
+
+/**
+ * selection change ui
  */
 function selectionChangedUI() {
   const galleryItemSelectedCount = document.querySelectorAll('.gallery-item-selected').length;
@@ -414,7 +428,7 @@ function selectionChangedUI() {
 /**
  * compute base64
  * @param {string} base64String
-* @return {number} size
+ * @return {number} size
  */
 function computeBase64Size(base64String) {
   const stringLength = base64String.length - 'data:image/png;base64,'.length;
@@ -887,6 +901,8 @@ function finishProcess() {
   progressbarForImage.style.backgroundColor = '#03A678';
   progressbarForImage.style.width = '100%';
   progressbarForImage.parentNode.querySelector('span').textContent = chrome.i18n.getMessage('all_images_download');
+
+  selectAll();
 }
 
 /**

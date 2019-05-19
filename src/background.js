@@ -179,9 +179,11 @@ chrome.runtime.onMessage.addListener((request, sender, responseCallback) => {
   return true;
 });
 
+/*
 if (chrome.runtime.setUninstallURL) {
   var version = chrome.runtime.getManifest().version;
   var homepage = chrome.runtime.getManifest().homepage_url;
   var url = homepage + "?v=" + version + "&type=uninstall";
   chrome.runtime.setUninstallURL(url, function () {});
 }
+*/

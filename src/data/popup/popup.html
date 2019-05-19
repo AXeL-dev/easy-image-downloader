@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Image Downloader</title>
+    <link rel="stylesheet" href="../font/css/fontello.css">
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <aside>
+      <p>
+        <a id="btnDownload" class="button button-disabled" data-i18n="download"></a>
+      </p>
+      <p><a id="btnSelectAll" class="button button-green" data-i18n="select_all"></a></p>
+      <p><a id="btnDeselect" class="button button-danger button-disabled" data-i18n="deselect"></a></p>
+      <ul class="sepAccordion">
+        <li>
+          <i></i>
+          <a class="sepAccordion-control" data-i18n="deep_search_tab"></a>
+          <div  class="sepAccordion-panel">
+              <p><span data-i18n="option_deep_search_level_title"></span><input class="deep-input" id="deepLevelInput" type="number" min="0" max="2" value="0"/></p>
+          </div>
+        </li>
+        <li>
+          <i></i>
+          <a class="sepAccordion-control" data-i18n="filter_tab"></a>
+          <div  class="sepAccordion-panel">
+            <div class="inLine">
+              <p class="optionTitle" data-i18n="filter_Type"></p>
+            </div>
+            <div id="filterMode">
+              <p> <label data-text="filterSelection"><input type="radio" name="audio"  value="selection" checked="true"/></label></p>
+              <p> <label data-text="filterShowHide"><input type="radio" name="audio"  value="showHide"/></label></p>
+            </div>
+            <div class="inLine">
+              <label class="inLine-label"><input type="checkbox" id="chkEnableFileSizeFilter" value=""/><p class="optionTitle" data-i18n="fileSize"></p></label>
+            </div>
+            <div class="optionItem">
+              <p data-i18n="min"></p><input type="number" id="filesizeminelem" value="0" min="0" disabled/><span data-i18n="kilo_bytes"></span>
+            </div>
+            <div class="optionItem">
+              <p data-i18n="max"></p><input type="number" id="filesizemaxelem" value="1024" min="1" disabled/><span data-i18n="kilo_bytes"></span>
+            </div>
+            <div class="inLine">
+              <label class="inLine-label"><input type="checkbox" id="chkEnableFileDimensionFilter" value=""/><p class="optionTitle" data-i18n="dimensions"></p></label>
+            </div>
+            <div class="optionItem">
+              <p data-i18n="min_width"></p><input type="number" id="dimensionsminwidthelem" value="0" min="0" disabled/>
+            </div>
+            <div class="optionItem">
+              <p data-i18n="max_width"></p><input type="number" id="dimensionsmaxwidthelem" value="1920" min="0" disabled/>
+            </div>
+            <div class="optionItem">
+              <p data-i18n="min_height"></p><input type="number" id="dimensionsminheightelem" value="0" min="0" disabled/>
+            </div>
+            <div class="optionItem">
+              <p data-i18n="max_height"></p><input type="number" id="dimensionsmaxheightelem" value="1080" min="0" disabled/>
+            </div>
+            <div class="inLine">
+              <p class="optionTitle" data-i18n="imageTypes"></p>
+            </div>
+            <p> <label data-text="allImages"><input type="checkbox" id="filetypeallimageselem" value="" checked/></label></p>
+            <p> <label data-text="jpg"><input type="checkbox" id="filetypejpegelem" data-chk-format="jpeg" checked disabled/></label></p>
+            <p> <label data-text="png"><input type="checkbox" id="filetypepngelem" value="" data-chk-format="png" checked disabled/></label></p>
+            <p> <label data-text="gif"><input type="checkbox" id="filetypegifelem" value="" data-chk-format="gif" checked disabled/></label></p>
+            <p> <label data-text="bmp"><input type="checkbox" id="filetypebmpelem" value="" data-chk-format="bmp" checked disabled/></label></p>
+            <p> <label data-text="webp"><input type="checkbox" id="filetypewebpelem" value="" data-chk-format="webp" checked disabled/></label></p>
+            <p>
+              <span id="btnStartFilter" class="button button-disabled" data-i18n="start_filter"></span>
+            </p>
+          </div>
+        </li>
+      </ul>
+    </aside>
+    <main>
+      <div class="tab-title-wrapper">
+          <p class="tab-title" data-i18n="tab_title"></p><span id="tabTitle"></span>
+      </div>
+
+      <div class="progressWrapper">
+        <div class="progress">
+          <span class="progress-percent" id="lblProgressPercent">0 %</span>
+          <div><span class="statistics-title" data-i18n="total_downloaded"></span><span class="statistics-value" id="lblTotal">0</span></div>
+          <div><span class="statistics-title" data-i18n="total_links"></span><span class="statistics-value" id="lblTotalLinks">0</span></div>
+          <div><span class="statistics-title" data-i18n="total_process_links"></span><span class="statistics-value" id="lblTotalProcessLinks">0</span></div>
+          <div><span class="statistics-title" data-i18n="total_selected"></span><span class="statistics-value" id="lblTotalSelected">0</span></div>
+          <div class="progress-bar" id="progressbar">
+          </div>
+        </div>
+        <a id="btnStop" class="button button-danger" data-i18n="stop"></a>
+      </div>
+      <div class="progressWrapper progressImageWrapper">
+        <div class="progress">
+          <span id="lblImageUrlProgress"></span>
+          <div class="progress-bar" id="progressbarForImage">
+          </div>
+        </div>
+      </div>
+      <div class="gallery-wrapper">
+      </div>
+    </main>
+  <div class="whiteWrapper" id="loader">
+  <div class="loader"></div>
+  </div>
+    <div class="whiteWrapper" id="downloadProgressWrapper">
+      <div class="downloadProgressBox">
+        <p data-i18n="please_wait"></p>
+        <div class="progress">
+            <span id="lblDownloadProgress">0%</span>
+            <div class="progress-bar" id="downloadProgressBar">
+            </div>
+        </div>
+      </div>
+    </div>
+  <input type="hidden" id="hdfCancelFlag" value="false"/>
+  <script src="jszip-utils.min.js" charset="utf-8"></script>
+  <script src="jszip.min.js" charset="utf-8"></script>
+  <script src="../../configuration.js" charset="utf-8"></script>
+  <script src="helper.js" charset="utf-8"></script>
+  <script src="imageDownloader.js" charset="utf-8"></script>
+  <script src="ui.js" charset="utf-8"></script>
+  <script src="popup.js" charset="utf-8"></script>
+  </body>
+</html>

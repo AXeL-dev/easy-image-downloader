@@ -22,7 +22,7 @@ You can install the extension from [Firefox Add-ons](https://addons.mozilla.org/
 
 ## Credits
 
-Original work was done by [Karl](https://addons.mozilla.org/fr/firefox/user/13834224/).
+Original work was done by [Karl](https://addons.mozilla.org/user/13834224/).
 
 ## License
 

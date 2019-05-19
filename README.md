@@ -5,15 +5,14 @@ Easy Image Downloader
 
 Easily save all images in a website to a zip file with just one click!
 
-![click-to-download-screenshot](screenshots/click-to-download.png)
+![step1-screenshot](screenshots/step1.png)
 
-![image-selection-screenshot](screenshots/image-selection.png)
+![step2-screenshot](screenshots/step2.png)
 
 ## Features
 
-- Simple & easy to use
-- Allows mono & multi selection
-- Search for images by keywords
+- Choose images you want
+- Adjust search depth (useful on sites like google images)
 - Filter by size, type or dimension
 - Download in one click
 

@@ -129,7 +129,7 @@
     "message": "Stop"
   },
   "progress_cancel": {
-    "message": "the process is stoped by user"
+    "message": "Process stoped by user"
   },
   "deep_search_contenxt": {
     "message": "Search images for the link"
@@ -172,5 +172,8 @@
   },
   "open_in_new_tab": {
     "message": "Open in new tab"
+  },
+  "no_active_dowloads": {
+    "message": "No active downloads."
   }
 }

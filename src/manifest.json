@@ -2,10 +2,10 @@
   "version": "0.1.1",
   "manifest_version": 2,
   "default_locale": "en",
-  "short_name": "image-downloader",
+  "short_name": "easy-image-downloader",
   "name": "__MSG_chrome_extension_name__",
   "description": "__MSG_chrome_extension_description__",
-  "homepage_url": "http://eccorem.com/apps/image-downloader.html",
+  "homepage_url": "https://github.com/AXeL-dev/easy-image-downloader",
   "background": {"scripts": ["background.js"]},
   "permissions" : ["storage", "tabs", "notifications", "contextMenus", "<all_urls>"],
   "browser_action": {

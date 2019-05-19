@@ -1,12 +1,12 @@
 {
   "chrome_extension_name": {
-    "message": "Image Downloader"
+    "message": "Easy Image Downloader"
   },
   "chrome_extension_description": {
     "message": "Easy to use and powerful image downloader for your browser"
   },
   "browser_action_title": {
-    "message": "Image Downloader"
+    "message": "Easy Image Downloader"
   },
   "browserAction_context_menu": {
     "message": "Get images for all tabs"

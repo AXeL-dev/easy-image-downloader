@@ -1,0 +1,179 @@
+{
+  "chrome_extension_name": {
+    "message": "Easy Image Downloader"
+  },
+  "chrome_extension_description": {
+    "message": "Un téléchargeur d'images facile à utiliser et puissant"
+  },
+  "browser_action_title": {
+    "message": "Easy Image Downloader"
+  },
+  "browserAction_context_menu": {
+    "message": "Obtenir des images pour tous les onglets"
+  },
+  "min": {
+    "message": "Min"
+  },
+  "max": {
+    "message": "Max"
+  },
+  "min_width": {
+    "message": "Largeur Min."
+  },
+  "max_width": {
+    "message": "Largeur Max."
+  },
+  "min_height": {
+    "message": "Hauteur Min."
+  },
+  "max_height": {
+    "message": "Hauteur Max."
+  },
+  "kilo_bytes": {
+    "message": "kbytes"
+  },
+  "dimensions": {
+    "message": "Dimensions (px)"
+  },
+  "fileSize": {
+    "message": "Taille du fichier"
+  },
+  "imageTypes": {
+    "message": "Types d'image"
+  },
+  "allImages": {
+    "message": "Toutes les images"
+  },
+  "jpg": {
+    "message": "Images JPG/JPEG"
+  },
+  "png": {
+    "message": "Images PNG"
+  },
+  "gif": {
+    "message": "Images GIF"
+  },
+  "bmp": {
+    "message": "Images BMP"
+  },
+  "webp": {
+    "message": "Images Webp"
+  },
+  "filter_type": {
+    "message": "Type de filtre"
+  },
+  "start_filter": {
+    "message": "Filtrer"
+  },
+  "start_popup_title": {
+    "message": "Obtention de toutes les images pour"
+  },
+  "current_tab": {
+    "message": "Onglet actuel"
+  },
+  "download": {
+    "message": "Télécharger"
+  },
+  "total_downloaded": {
+    "message": "Téléchargés: "
+  },
+  "total_selected": {
+    "message": "Sélectionnés: "
+  },
+  "total_links": {
+    "message": "Liens: "
+  },
+  "total_process_links": {
+    "message": "Traités: "
+  },
+  "select_all": {
+    "message": "Tout sélectionner"
+  },
+  "deselect": {
+    "message": "Tout déselectionner"
+  },
+  "option_save_changes": {
+    "message": "Sauvegarder les modifications"
+  },
+  "option_open_in_new_tab": {
+    "message": "Ouvrir dans un nouvel onglet"
+  },
+  "option_save_message": {
+    "message": "Les modifications ont été enregistrées avec succès."
+  },
+  "reset": {
+    "message": "Réinitialiser"
+  },
+  "estimating_title": {
+    "message": "Estimation des liens d'image potentiels"
+  },
+  "finished": {
+    "message": "Terminé"
+  },
+  "all_images_download": {
+    "message": "Toutes les images ont été téléchargées"
+  },
+  "option_deep_search_level_title": {
+    "message": "Niveau:"
+  },
+  "operation_longer": {
+    "message": "Selon la profondeur de la configuration de recherche, cette opération peut prendre plus de temps"
+  },
+  "pleaseWait": {
+    "message": "Merci de patienter..."
+  },
+  "initializing": {
+    "message": "Initialisation"
+  },
+  "stop": {
+    "message": "Arrêter"
+  },
+  "progress_cancel": {
+    "message": "Processus arrêté par l'utilisateur"
+  },
+  "deep_search_contenxt": {
+    "message": "Rechercher des images pour le lien"
+  },
+  "tab_title": {
+    "message": "Onglet en cours de traitement: "
+  },
+  "filter_tab": {
+    "message": "Filtre"
+  },
+  "deep_search_tab": {
+    "message": "Recherche poussée"
+  },
+  "all_tabs": {
+    "message": "Tous les onglets - Image Downloader"
+  },
+  "filter_selection": {
+    "message": "Sélection"
+  },
+  "filter_showHide": {
+    "message": "Afficher / Masquer"
+  },
+  "processing": {
+    "message": "En traitement"
+  },
+  "please_wait": {
+    "message": "Merci de patienter..."
+  },
+  "open_in_popup_mode": {
+    "message": "Ouvrir en mode popup"
+  },
+  "deep_search_notification": {
+    "message": "Veuillez actualiser la page pour appliquer une recherche approfondie."
+  },
+  "formula": {
+    "message": "Traitée / Liens = "
+  },
+  "copy_link": {
+    "message": "Copier le lien"
+  },
+  "open_in_new_tab": {
+    "message": "Ouvrir dans un nouvel onglet"
+  },
+  "no_active_dowloads": {
+    "message": "Aucun téléchargement actif."
+  }
+}

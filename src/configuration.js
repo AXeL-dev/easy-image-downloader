@@ -4,7 +4,7 @@ const Configuration = (function() {
   const appConfig = {
     openInTab: false,
     deepLevel: 0,
-    filterType: 'selection',
+    filterType: 'showHide',
     popupMode: false
   };
   const imgConfig = {

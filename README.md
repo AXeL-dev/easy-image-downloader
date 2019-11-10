@@ -9,9 +9,9 @@
 
 Easily save all images in a website to a zip file with just one simple click.
 
-| Open extension tab  | Download in one click |
-| ------------------- | --------------------- |
-| ![step1-screenshot](screenshots/step1.png) | ![step2-screenshot](screenshots/step2.png) |
+Open extension tab  | Download in one click
+------------------- | ---------------------
+![step1-screenshot](screenshots/step1.png) | ![step2-screenshot](screenshots/step2.png)
 
 ## Features
 

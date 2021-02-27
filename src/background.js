@@ -21,7 +21,7 @@ function deepSearchNotification() {
   chrome.notifications.create({
     type: 'basic',
     title: '',
-    iconUrl: 'data/icons/24.png',
+    iconUrl: 'data/icons/256.png',
     message: chrome.i18n.getMessage('no_active_dowloads')
   });
 }

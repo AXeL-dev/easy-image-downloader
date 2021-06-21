@@ -1,0 +1,179 @@
+{
+  "chrome_extension_name": {
+    "message": "Eenvoudige afbeeldingsdownloader"
+  },
+  "chrome_extension_description": {
+    "message": "Een eenvoudig te gebruiken doch krachtige afbeeldingsdownloader voor je webbrowser"
+  },
+  "browser_action_title": {
+    "message": "Eenvoudige afbeeldingsdownloader"
+  },
+  "browserAction_context_menu": {
+    "message": "Afbeeldingen van alle tabbladen ophalen"
+  },
+  "min": {
+    "message": "Min."
+  },
+  "max": {
+    "message": "Max."
+  },
+  "min_width": {
+    "message": "Min. breedte"
+  },
+  "max_width": {
+    "message": "Max. breedte"
+  },
+  "min_height": {
+    "message": "Min. hoogte"
+  },
+  "max_height": {
+    "message": "Max. hoogte"
+  },
+  "kilo_bytes": {
+    "message": "kbytes"
+  },
+  "dimensions": {
+    "message": "Afmetingen (in px)"
+  },
+  "fileSize": {
+    "message": "Bestandsgrootte"
+  },
+  "imageTypes": {
+    "message": "Soorten afbeeldingen"
+  },
+  "allImages": {
+    "message": "Alle afbeeldingen (standaard)"
+  },
+  "jpg": {
+    "message": "JPG-/JPEG-afbeeldingen"
+  },
+  "png": {
+    "message": "PNG-afbeeldingen"
+  },
+  "gif": {
+    "message": "GIF-afbeeldingen"
+  },
+  "bmp": {
+    "message": "BMP-afbeeldingen"
+  },
+  "webp": {
+    "message": "Webp-afbeeldingen"
+  },
+  "filter_type": {
+    "message": "Filteren op type"
+  },
+  "start_filter": {
+    "message": "Filteren"
+  },
+  "start_popup_title": {
+    "message": "Alle afbeeldingen ophalen van"
+  },
+  "current_tab": {
+    "message": "Huidige tabblad"
+  },
+  "download": {
+    "message": "Downloaden"
+  },
+  "total_downloaded": {
+    "message": "Gedownload: "
+  },
+  "total_selected": {
+    "message": "Geselecteerd: "
+  },
+  "total_links": {
+    "message": "Links: "
+  },
+  "total_process_links": {
+    "message": "Verwerkt: "
+  },
+  "select_all": {
+    "message": "Alles selecteren"
+  },
+  "deselect": {
+    "message": "Alles deselecteren"
+  },
+  "option_save_changes": {
+    "message": "Wijzigingen opslaan"
+  },
+  "option_open_in_new_tab": {
+    "message": "Openen op nieuw tabblad"
+  },
+  "option_save_message": {
+    "message": "De afbeeldingen zijn opgeslagen."
+  },
+  "reset": {
+    "message": "Standaardwaarden"
+  },
+  "estimating_title": {
+    "message": "Bezig met berekenen van potentiële links…"
+  },
+  "finished": {
+    "message": "Afgerond"
+  },
+  "all_images_download": {
+    "message": "Alle afbeeldingen zijn gedownload"
+  },
+  "option_deep_search_level_title": {
+    "message": "Niveau:"
+  },
+  "operation_longer": {
+    "message": "Dit kan, afhankelijk van het niveau, langer duren."
+  },
+  "pleaseWait": {
+    "message": "Even geduld…"
+  },
+  "initializing": {
+    "message": "Bezig met initialiseren…"
+  },
+  "stop": {
+    "message": "Afbreken"
+  },
+  "progress_cancel": {
+    "message": "Het proces is afgebroken"
+  },
+  "deep_search_contenxt": {
+    "message": "Afbeeldingen zoeken op link"
+  },
+  "tab_title": {
+    "message": "Bezig met verwerken van "
+  },
+  "filter_tab": {
+    "message": "Filteren"
+  },
+  "deep_search_tab": {
+    "message": "Grondig doorzoeken"
+  },
+  "all_tabs": {
+    "message": "Alle tabbladen - Afbeeldingsdownloader"
+  },
+  "filter_selection": {
+    "message": "Selectie"
+  },
+  "filter_showHide": {
+    "message": "Tonen/Verbergen"
+  },
+  "processing": {
+    "message": "Bezig met verwerken…"
+  },
+  "please_wait": {
+    "message": "Even geduld…"
+  },
+  "open_in_popup_mode": {
+    "message": "Openen in pop-upmodus"
+  },
+  "deep_search_notification": {
+    "message": "Herlaad de pagina om deze grondig te doorzoeken."
+  },
+  "formula": {
+    "message": "Verwerkt/Links = "
+  },
+  "copy_link": {
+    "message": "Link kopiëren"
+  },
+  "open_in_new_tab": {
+    "message": "Openen op nieuw tabblad"
+  },
+  "no_active_dowloads": {
+    "message": "Er zijn geen actieve downloads."
+  }
+}
